@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,500&family=Montserrat:wght@700&family=Roboto&display=swap');
+
+
+body{
+  margin: 0;
+}
+
+h2{
+  font-weight: lighter;
+  color: grey;
+}
+
+.container
+{
+  width: 700px;
+  margin: 50px auto;
+}
+
+.banner {
+  background-size: cover;
+  padding: 120px 0;
+  background-image: url(https://source.unsplash.com/random);
+  background-repeat:no-repeat;
+}
+
+.banner h1 {
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 35px;
+  font-weight: bold;
+  font-family: 'Montserrat';
+  text-align:center;
+}
+
+.banner p {
+  font-size: 25px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  text-align:center;
+  font-family: 'EB Garamond';
+}
+
+body{
+  font-family: 'Roboto';
+}
+
+
+#content{
+  padding: 50px;
+  text-align: left;
+  margin: 0 200px;
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+  margin: 50px auto
+}
+
+#link {
+  text-decoration: none;
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+  color: #636363;
+  font-family: 'EB Garamond';
+  font-weight: lighter;
+  font-size: 25px;
+  font-style: italic;
+  font-size:25px;
+}
+#link:hover{
+  background-image: linear-gradient(to bottom, rgba(125, 255, 179, 1), rgba(125, 255, 179, 1));
+}
+
+
+/* Media queries */
+@media (max-width: 1200px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 960px;
+  }
+}
+@media (max-width: 992px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 768px) {
+  /* For a screen < 2720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 576px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
